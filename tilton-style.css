@@ -1,0 +1,85 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.page {
+  height: 1000px;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 0em 2em;
+  background-color: rgba(0, 0, 0, 0.46);
+}
+
+.header-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  height: 7.5em;
+  /* border: 2px dotted black; */
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 12em;
+  height: 4em;
+  /* border: 2px dotted black; */
+  border-radius: 2em;
+  background: white;
+  color: black;
+  align-content: center;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.search {
+  display: flex;
+  flex-wrap: wrap;
+  width: 4em;
+  height: 4em;
+  /* border: 2px dotted black; */
+  border-radius: 2em;
+  background: darkgrey;
+}
+
+.menu-search-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.header-list {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 2px dotted black; */
+  gap: 2.5em;
+}
+
+.header-list-item {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 2px dotted black; */
+}
+
+.company-logo {
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 2px dotted black; */
+  font-size: 3em;
+  font-weight: 750;
+  justify-content: right;
+}
+
+.pakaging {}
+
+.menu:hover {
+  background-color: brown;
+}
